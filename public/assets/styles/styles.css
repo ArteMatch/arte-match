@@ -662,3 +662,163 @@ details p {
     line-height: 1.6;
     animation: fade .3s ease;
 }
+
+/*CONTACTO*/
+.seccion-contacto {
+    padding: 2rem 0 7rem 0;
+}
+
+.contacto-box {
+    margin: auto;
+    border-radius: 10px;
+    width: 45%;
+    height: 67%;
+    box-shadow: 0 0 1px 0 #bac8da;
+    background-color: #ffffff;
+    padding: 1rem;
+    box-sizing: border-box;
+    box-shadow: 0 0 50px rgb(216, 216, 216);
+}
+
+.seccion-contacto h2 {
+    font-family: "Caudex", serif;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.seccion-contacto p {
+    text-align: center;
+    color: #65758b;
+    font-size: 1rem;
+    margin-bottom: 3rem;
+}
+
+.espacios {
+    font-size: 0.74rem;
+}
+
+.box {
+    text-align: center;
+}
+
+input,
+textarea {
+    width: 94.6%;
+    border-radius: 7px;
+    padding: 0.76rem;
+    border: none;
+    outline: none;
+    border: 1px solid #e1e1e1;
+    margin-top: 0.6rem;
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: 3px solid #8fa3c0;
+    outline-offset: 2px;
+}
+
+label {
+    margin: 0;
+    color: #000000;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    margin-left: 0.82rem;
+    font-family: "Caudex", serif;
+}
+
+.formulario {
+    position: relative;
+}
+
+.nombreCompleto {
+    margin-top: 1.2rem;
+}
+
+.correo {
+    margin-top: 1.5rem;
+}
+
+.boton-iniciarSesion {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.mensaje {
+    margin-top: 1.9rem;
+}
+
+textarea {
+    min-width: 94.6%;
+    resize: none;
+    min-height: 60px;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+.boton-iniciar-boton {
+    padding: 0.6rem;
+    font-size: 1.12rem;
+    width: 95%;
+    margin-top: 2rem;
+    background-color: #8fa3c0;
+    color: white;
+    transition: background-color 0.3s ease;
+    border: none;
+    border-radius: 0.5vw;
+    cursor: pointer;
+}
+
+.boton-iniciar-boton:hover {
+    background-color: #a9bdda;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.modal-content {
+    background: white;
+    width: 85%;
+    max-width: 350px;
+    padding: 1.8rem;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+    animation: aparecer 0.3s ease;
+}
+
+.modal-content h3 {
+    margin: 0;
+    font-size: 1.4rem;
+    font-family: "Caudex", serif;
+}
+
+.modal-content p {
+    color: #65758b;
+    margin: 0.7rem 0 1.5rem;
+    font-size: 0.9rem;
+}
+
+.modal-content button {
+    background: #8fa3c0;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.4rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.modal-content button:hover {
+    background: #a9bdda;
+}

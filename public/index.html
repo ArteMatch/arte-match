@@ -294,6 +294,52 @@
         </div>
     </section>
 
+    <section class="seccion-contacto">
+        <h2>¿Necesidas ayuda?</h2>
+        <p>Estamos aquí para responder tus preguntas</p>
+
+        <div class="contacto-box">
+            <form class="formulario" id="contactoForm">
+
+                <div class="espacios">
+                    <div class="nombreCompleto">
+                        <label>Nombre completo</label>
+                    </div>
+                    <div class="box box-nombre">
+                        <input type="text" id="nombre" placeholder="Tu Nombre">
+                    </div>
+
+                    <div class="correo">
+                        <label>Correo electrónico</label>
+                    </div>
+                    <div class="box box-correo">
+                        <input type="email" id="email" placeholder="tu@email">
+                    </div>
+
+                    <div class="mensaje">
+                        <label>Mensaje</label>
+                    </div>
+                    <div class="box box-mensaje">
+                        <textarea id="mensaje" rows="8" placeholder="Cuéntanos cómo podemos ayudarte..."></textarea>
+                    </div>
+
+                    <div class="boton-iniciarSesion">
+                        <button class="boton-iniciar-boton" type="submit">Enviar Mensaje</button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+        <!-- MODAL BONITA -->
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <h3>Mensaje enviado</h3>
+                <p>Gracias por contactarnos. Te responderemos pronto.</p>
+                <button id="cerrarModal">Cerrar</button>
+            </div>
+        </div>
+
+    </section>
 
     <script src="/public/assets/scripts/main.js"></script>
 </body>
