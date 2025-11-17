@@ -300,3 +300,126 @@ body {
     margin: 0;
     color: #555;
 }
+
+/*POR QUE ELEGIRLO*/
+.por_que {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 5rem 0;
+}
+
+.por_que h2 {
+    font-family: 'Caudex', serif;
+    padding: 0.5rem;
+    font-size: 3rem;
+    line-height: 1.2;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 0.6rem;
+}
+
+.por_que span {
+    color: #C2B3D9;
+}
+
+.por_que p {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-bottom: 3.5rem;
+    color: #64748b;
+}
+
+.list-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 1.3rem;
+    margin-bottom: 3.5rem;
+}
+
+.por_que-container {
+    position: relative;
+    border: 1px solid #000;
+    border-color: rgb(241, 239, 239);
+    border-radius: 15px;
+    text-align: center;
+    transition: all 0.5s ease;
+    width: 12rem;
+    height: 13rem;
+    padding: 1rem;
+}
+
+.por_que-container:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
+    border-color: #C2B3D9;
+    transition: all 0.5s ease;
+}
+
+
+.por_que-container h3 {
+    font-family: 'Caudex', serif;
+    font-size: 1rem;
+}
+
+.por_que-container p {
+    font-size: 0.8rem;
+    color: #64748b;
+    font-weight: 500;
+}
+
+.iconos {
+    width: 70px;
+    height: 70px;
+}
+
+.por_que-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.img-container {
+    position: relative;
+    width: 35%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.img-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    border-radius: 20px;
+    filter: brightness(0.9);
+    transition: 0.4s;
+}
+
+.img-container img:hover {
+    transform: scale(1.1);
+}
+
+.title-image {
+    position: absolute;
+    bottom: 70px;
+    left: 25px;
+    font-family: "Caudex", serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+}
+
+.text-image {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    color: white;
+    max-width: 80%;
+}
