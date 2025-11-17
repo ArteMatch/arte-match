@@ -500,3 +500,88 @@ body {
     font-size: 14px;
     line-height: 1.5;
 }
+
+/*RESEÑAS*/
+.testimonios {
+    text-align: center;
+    margin: 4rem 0 4rem 0;
+}
+
+.testimonios h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #1a1a1a;
+    font-family: 'Caudex', serif;
+}
+
+.testimonios .sub {
+    color: #666;
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+
+.test-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.test-card {
+    width: 330px;
+    padding: 25px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+    border: 2px solid transparent;
+    transition: .3s ease;
+    text-align: left;
+}
+
+.test-card:hover {
+    border-color: #47576e;
+    transform: translateY(-5px);
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
+}
+
+.estrellas {
+    color: #f7c531;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.test-card .texto {
+    font-size: 15px;
+    color: #444;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+.test-card .textito {
+    margin-bottom: 50px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+}
+
+.user img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.user h4 {
+    margin: 0;
+    font-size: 16px;
+    color: #111;
+}
+
+.user span {
+    font-size: 14px;
+    color: #777;
+}
