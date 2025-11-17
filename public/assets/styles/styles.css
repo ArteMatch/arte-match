@@ -890,3 +890,199 @@ textarea {
     color: white;
     background-color: #deecde;
 }
+
+/*FOOTER*/
+.footer {
+    background-color: #fafbfc;
+    padding: 6rem 8rem 1.3rem;
+    font-family: 'Poppins', sans-serif;
+    color: #334155;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 2.5rem;
+}
+
+.footer-col h4 {
+    font-family: 'Caudex', serif;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: #000;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 0.8rem;
+}
+
+.footer-col ul li a {
+    text-decoration: none;
+    color: #64748b;
+    transition: color 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #000;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.footer-logo img {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-logo .logo {
+    font-family: 'Caudex', serif;
+    font-size: 1.5rem;
+    color: #1e293b;
+    margin: 0;
+}
+
+.footer-logo .slogan {
+    font-size: 0.8rem;
+    color: #64748b;
+    margin: 0;
+}
+
+.footer-col.marca .descripcion {
+    margin-top: 1rem;
+    max-width: 300px;
+    font-size: 0.8rem;
+    color: #64748b;
+    line-height: 1.5;
+}
+
+.footer hr {
+    border: none;
+    border-top: 1px solid #e2e8f0;
+    margin-bottom: 1.5rem;
+}
+
+.footer-copy {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #64748b;
+}
+
+/*RESPONSIVE*/
+@keyframes aparecer {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+/**/
+
+@media (max-width: 1100px) {
+    .contacto-box {
+        width: 85vw;
+        height: auto;
+        padding: 5vw;
+    }
+
+    button {
+        font-size: 4vw;
+        padding: 2vw;
+    }
+
+    h1 {
+        font-size: 2.4rem;
+        margin-top: 5vh;
+    }
+}
+
+/*Tablets y pantallas medianas*/
+@media (max-width: 900px) {
+    .encabezado {
+        padding: 0.75rem 1.5rem;
+    }
+
+    .menu {
+        gap: 1rem;
+    }
+
+    .acciones {
+        gap: 0.5rem;
+    }
+
+    .btn-login,
+    .btn-unete {
+        padding: 0.55rem 1rem;
+        font-size: 0.85rem;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 6rem 1.5rem 3rem;
+        gap: 30px;
+    }
+
+    .hero-texto h1 {
+        font-size: 2.7rem;
+    }
+
+    .hero-imagen img {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-botones {
+        justify-content: center;
+    }
+
+    .datos {
+        justify-content: center;
+        gap: 1.5rem;
+        width: 100%;
+    }
+
+}
+
+/*PRUEBA*/
+@media (max-width: 700px) {
+    .encabezado {
+        display: none;
+    }
+
+}
+
+/*Celulares pequeños*/
+@media (max-width: 480px) {
+
+    .hero-texto h1 {
+        font-size: 2rem;
+    }
+
+    .btn-primario,
+    .btn-secundario {
+        width: 100%;
+        padding: 0.9rem;
+    }
+
+    .datos {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+
+}
